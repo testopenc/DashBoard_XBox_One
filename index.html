@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f9895cbb83.js" crossorigin="anonymous"></script>
+    <title>XBox Type</title>
+</head>
+<script type="text/javascript">
+    function tS(){
+        x=new Date();
+        x.setTime(x.getTime());
+        return x;
+    }
+    function lZ(x){
+        return (x>9)?x:'0'+x;
+    }
+    function dT(){
+        if(fr==0){
+            fr=1;
+            document.write(" " + '<span id="tP">'+eval(oT)+'</span>');
+        }
+        document.getElementById("tP").innerHTML =  eval(oT);
+        setTimeout('dT()',1000);
+    }
+    var fr=0;
+    oT="tS().getHours()+':'+lZ(tS().getMinutes())";
+    </script>
+<body>
+<header>
+    <div class="identitypic">
+        <img class="photoid" src="Images/photoid.svg" alt=" Identity User">
+    </div>
+    <div class="identityname">
+        <h1>AgamiSensei<i>ULTIMATE</i></h1>
+    </div>
+    <div class="info">
+        <i class="fas fa-microphone"></i>
+        <i class="fas fa-battery-full"></i>
+    </div>
+    <div class="horloge">
+        <div class="heures">
+            <script>dT();</script>
+        </div>
+    </div>
+</header>
+
+<section>
+<div class="content">
+        <a href="#" class="youtube-clicable">
+            <div class="youtube-content">
+                <img class="youtube-img" src="images/Youtube.jpg" alt="Miniature YouTube">
+                    <div class="youtube-txt">
+                            <p>YouTube</p>
+                    </div>
+             </div>
+        </a>
+</div>
+</section>
+
+
+    
+</body>
+</html>
