@@ -41,8 +41,20 @@ header{
     margin-left: 10px;
 }
 .info{
-    margin-left: 69%;
+    margin-left: 66%;
     margin-top: 30px;
+}
+.logodragon{
+    background-color: white;
+    height: 18px;
+    border-radius: 23px;
+    color: black;
+    margin-top: 38px;
+    margin-left: -164px;
+}
+.lvl{
+    margin-left: 10px;
+    margin-top: 21px;
 }
 .fa-battery-full{
     margin-left: 10px;
@@ -56,6 +68,8 @@ header{
 /* section */
 .inline-box{
     display: inline-flex;
+    width: 100%;
+    height: 260px;
 }
 .content{
     width: 20%;
@@ -78,39 +92,40 @@ header{
 	transform:scale(1.05) translateY(-2px);
     box-shadow: 0 0 1em white;
 }
-.youtube-txt{
+.youtube-txt, .txt{
     background-color: rgb(61, 58, 58);
     color: white;
     height: 30px;
 }
-.youtube-txt p, .gta-txt p{
+.youtube-txt p, .txt p {
     margin-left: 10px;
     margin-top: 6px;
     text-decoration: none;
 }
 
 .content-app{
-    margin-left: 38px;
-    margin-top: 206px;
-    width: 15%;
+    margin-left: 91px;
+    margin-top: 144px;
+    width: 7%;
     height: 135px;
 }
-.gta-content{
+.content{
     display: flex;
     flex-direction: column;
     width: 160px;
 }
-.gta-img{
+.gta-img, .img{
     width: 100%;
     height:106px;
 }
-.gta-txt{
+.txt {
     background-color: rgb(61, 58, 58);
     color: white;
     height: 30px;
 }
-.gta-content:hover{
+.content:hover{
     cursor: pointer;
 	transform:scale(1.05) translateY(-2px);
-    box-shadow: 0 0 1em white;
+    box-shadow: 0 0 10px white;
 }
+
