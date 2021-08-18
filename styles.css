@@ -73,25 +73,44 @@ header{
     height: 100%;
     width: 100%;
 }
-.youtube-content:hover{
+.youtube-content:hover {
 	cursor: pointer;
 	transform:scale(1.05) translateY(-2px);
     box-shadow: 0 0 1em white;
 }
-.youtube-txt:hover{
-    display: flex;
+.youtube-txt{
     background-color: rgb(61, 58, 58);
     color: white;
     height: 30px;
 }
-.youtube-txt, p{
-    display: none;
-}
-.youtube-txt p{
+.youtube-txt p, .gta-txt p{
     margin-left: 10px;
     margin-top: 6px;
+    text-decoration: none;
 }
 
-.content-app[
-
-]
+.content-app{
+    margin-left: 38px;
+    margin-top: 206px;
+    width: 15%;
+    height: 135px;
+}
+.gta-content{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+.gta-img{
+    width: 100%;
+    height:106px;
+}
+.gta-txt{
+    background-color: rgb(61, 58, 58);
+    color: white;
+    height: 30px;
+}
+.gta-content:hover{
+    cursor: pointer;
+	transform:scale(1.05) translateY(-2px);
+    box-shadow: 0 0 1em white;
+}
