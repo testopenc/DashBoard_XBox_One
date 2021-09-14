@@ -137,9 +137,26 @@ header{
 .discovery-content{
     width: 282px;
     height: 152px;
-    margin: 63px 0px 0px 49px;
 }
 .github-img{
     width: 100%;
     height: 100%;
+}
+.content-more{
+    margin: 10px 0px 0px 44px;
+}
+.content-more:hover{
+    cursor: pointer;
+	transform:scale(1.05) translateY(-2px);
+    box-shadow: 0 0 10px white;
+}
+.under{
+    margin-top: 4em;
+    margin-left: 3em;
+    font-size: 1em;
+}
+.content-site{
+    margin-left: 104px;
+    margin-top: 17px;
+    height: 135px;
 }
