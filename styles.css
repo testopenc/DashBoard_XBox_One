@@ -156,7 +156,27 @@ header{
     font-size: 1em;
 }
 .content-site{
-    margin-left: 104px;
-    margin-top: 17px;
-    height: 135px;
+    margin-left: 110px;
+    margin-top: 10px;
+    height: 148px;
+    width: 200px;
+}
+.content-img, .img-other{
+    width: 282px;
+    height: 152px;
+}
+.content-img:hover, .content-other:hover{
+    cursor: pointer;
+	transform:scale(1.05) translateY(-2px);
+    box-shadow: 0 0 10px white;
+}
+.img-under{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.content-other{
+    margin-left: 100px;
+    width: 282px;
+    height: 152px;
 }
